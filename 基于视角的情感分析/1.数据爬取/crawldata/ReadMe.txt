@@ -1,0 +1,5 @@
+本目录包含的是爬取的汽车名词和评论：
+其中spider_comment.py用来爬取汽车之家的评论,
+spider_taipingyang.py用来爬取太平洋汽车等网站的车名
+splitwordforword2用来划分评论给后续处理
+其余json文件是爬取的汽车名称结果，csv文件是爬取的评论

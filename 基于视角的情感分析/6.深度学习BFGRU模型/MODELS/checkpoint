@@ -1,0 +1,2 @@
+model_checkpoint_path: "E_W2V_GRU_TC128_100.dy"
+all_model_checkpoint_paths: "E_W2V_GRU_TC128_100.dy"

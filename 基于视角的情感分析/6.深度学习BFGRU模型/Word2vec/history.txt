@@ -1,0 +1,1000 @@
+    5  ls
+    6  hadoop dfs -rm /user/2016st37/*
+    7  hadoop dfs -rm -r /user/2016st37/*
+    8  hadoop jar InvertedIndex.jar PageRank /data/wuxia   /user/2016st37/task2_res
+    9  hadoop jar InvertedIndex.jar PageRank  /data/wuxia_novels  /user/2016st37/task2_res
+   10  hadoop dfs -get  /user/2016st37/*  ./
+   11  hadoop dfs -get  /user/2016st37/task2_res  ./
+   12  ls
+   13  cd output/
+   14  ls
+   15  cd ..
+   16  ls
+   17  scp -r * jun@114.212.82.46:/home/jun/pasaclass
+   18  scp -r * jun@114.212.82.46:/home/jun/Desktop
+   19  hadoop dfs -cat /user/2016st37/task2_res/*
+   20  ls
+   21  pwd
+   22  ls
+   23  cd ..
+   24  ls
+   25  rm task2_res/ -rf
+   26  ls
+   27  rm output/ -rf
+   28  ls
+   29  cd Assignment2/
+   30  ls
+   31  rm output -rf
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd Assigment2
+   36  cd Assignment2/
+   37  ls
+   38  ls
+   39  pwd
+   40  ls
+   41  jps
+   42  ll
+   43  ls
+   44  cd /
+   45  ls
+   46  cd home/
+   47  ls
+   48  cd 2016st04
+   49  cd 2016st37
+   50  ls
+   51  $JAVA_HOME 
+   52  $HADOOP_HOME 
+   53  cd $HADOOP_HOME 
+   54  ls
+   55  cd bin/
+   56  ls
+   57  cd ..
+   58  ls
+   59  ./sbin/start-all.sh 
+   60  clear
+   61  ls /data
+   62  ls /data/hadoop_dir/
+   63  ls /data/hadoop_dir/mapred/
+   64  ls /data/hadoop_dir/mapred/local/
+   65  hadoop dfs -ls
+   66  hadoop dfs -ls /
+   67  hadoop dfs -ls /data
+   68  hadoop dfs -ls /datauser
+   69  hadoop dfs -ls /user
+   70  ls
+   71  free
+   72  free -m
+   73  ls
+   74  ll
+   75  cd /data
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd usr/local/
+   80  ls
+   81  find hadoop
+   82  cd ..
+   83  find hadoop
+   84  hadoop fs -ls
+   85  hadoop fs -ls /data
+   86  ls
+   87  cd
+   88  ls
+   89  hadoop jar daopai_hq.jar /data/wuxia_novels ~/output
+   90  hadoop jar daopai_hq.jar DAOPAI.daopai /data/wuxia_novels /output
+   91  jps
+   92  hadoop fs -ls /data/wuxia_novels
+   93  hadoop fs -ls /
+   94  hadoop fs -ls /user
+   95  hadoop jar daopai_hq.jar DAOPAI.daopai /data/wuxia_novels /user/2016st37/output
+   96  hadoop fs -ls /user/2016st37
+   97  hadoop fs -ls /user/2016st37/output
+   98  ls
+   99  cd Assignment2/
+  100  ls
+  101  cd ..
+  102  ls
+  103  cd /user/2016st37
+  104  hdfs dfs -ls /
+  105  hdfs dfs -ls /tmp
+  106  hdfs dfs -ls /user/2016st37
+  107  hdfs dfs -get /user/2016st37/task2_res ~/task2_res
+  108  ls
+  109  cd task2_res/
+  110  ls
+  111  vim part-r-00000
+  112  hadoop jar daopai_hq.jar DAOPAI.daopai /data/wuxia_novels /user/2016st37/output
+  113  cd ..
+  114  hadoop jar daopai_hq.jar DAOPAI.daopai /data/wuxia_novels /user/2016st37/output
+  115  hdfs dfs -ls /user/2016st37
+  116  hdfs dfs -get /user/2016st37/output ~/output
+  117  ls
+  118  cd output/
+  119  ls
+  120  vim part-r-00000
+  121  cd ..
+  122  ls
+  123  cd Assignment2/
+  124  ls
+  125  cd output/
+  126  ls
+  127  cd ..
+  128  cd.
+  129  cd
+  130  free
+  131  free -m
+  132  python
+  133  pip
+  134  pip -version
+  135  ls
+  136  cd word2vec/
+  137  ls
+  138  vim demo-word.sh
+  139  cp demo-word.sh Trainword2vec.sh
+  140  ll
+  141  vim Trainword2vec.sh
+  142  chmod +x Trainword2vec.sh
+  143  ll
+  144  ls
+  145  ll
+  146  sh Trainword2vec.sh
+  147  ls
+  148  cd word2vec/
+  149  ls
+  150  cd ..
+  151  ls
+  152  mv Train_segmented.txt word2vec/Train_segmented.txt
+  153  ls
+  154  cd word2vec/
+  155  ls
+  156  sh Trainword2vec.sh
+  157  ls
+  158  free -m
+  159  ls
+  160  vim Train_segmented.txt 
+  161  vim demo-word.sh 
+  162  vim vectors.bin 
+  163  sh demo-word.sh 
+  164  vim Trainword2vec.sh 
+  165  sh Trainword2vec.sh 
+  166  logout
+  167  ls
+  168  hadoop Lab02.jar  /data/wuxia_novels   /user/2016st37/out.ttx
+  169  hadoop Lab02.jar InvertedIndex /data/wuxia_novels   /user/2016st37/out.ttx
+  170  hadoop Lab02.jar  /data/wuxia_novels   /user/2016st37/out.ttx
+  171  jar 
+  172  jar -x Lab02.jar 
+  173  ls
+  174  cd word2vec/
+  175  ls
+  176  cd ..
+  177  ls
+  178  ssh localhost
+  179  ls
+  180  cd word2vec/
+  181  ls
+  182  ./distance 
+  183  vim Trainword2vec.sh
+  184  ./distance vectors.bin
+  185  cd ..
+  186  ./distance vectors.bin
+  187  cd word2vec/
+  188  ./distance vectors.bin
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd Assignment2/
+  193  ls
+  194  cd ..
+  195  ls
+  196  python -version
+  197  python
+  198  vim .bashrc
+  199  cd word2vec/
+  200  ls
+  201  cd word2vec/
+  202  ls
+  203  ./distance 
+  204  ./distance vectors.bin 
+  205  java -version
+  206  hdfs dfs -ls /data
+  207  hdfs dfs -get /data/wuxia_novels /wuxianovels
+  208  ls
+  209  hdfs dfs -get /data/wuxia_novels ~/wuxianovels
+  210  ls
+  211  cd wuxianovels/
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd Assignment2/
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd
+  220  ls
+  221  scp wuxianovels hadoop@192.163.23.2:/home/hadoop/dataset
+  222  scp wuxianovels hadoop@192.168.23.2:/home/hadoop/dataset
+  223  scp -r wuxianovels hadoop@192.168.23.2:/home/hadoop/dataset
+  224  ped
+  225  pwd
+  226  exit
+  227  ls
+  228  hdfs dfs -ls
+  229  hdfs dfs -ls /output
+  230  hdfs dfs -ls output
+  231  ls
+  232  cd wuxianovels/
+  233  ls
+  234  cd ..
+  235  ls
+  236  scp wuxianovels/ hadoop@192.168.23.4:/home/hadoop/dataset
+  237  ping www.baidu.com
+  238  ls
+  239  hadoop fs -ls /data
+  240  ls
+  241  mkdir TriangleCount
+  242  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  243  cd TriangleCount/
+  244  ls
+  245  mv trianglecount-1.0-SNAPSHOT.jar trianglecount.jar
+  246  ls
+  247  hadoop fs -cat /data/graphTriangleCount/twitter_graph_v2.txt
+  248  hadoop jar trianglecount.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt middle1 middle2 output
+  249  cd ..
+  250  ls
+  251  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  252  cd TriangleCount/
+  253  ls
+  254  rm trianglecount.jar 
+  255  mv trianglecount-1.0-SNAPSHOT.jar trianglecount.jar
+  256  ls
+  257  hadoop jar trianglecount.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt middle1 middle2 output
+  258  hadoop fs -ls
+  259  hadoop fs -rm -rf middle1
+  260  hadoop fs -rm -r middle1
+  261  hadoop fs -rm -r middle2
+  262  hadoop fs -rm -r output
+  263  hadoop jar trianglecount.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt middle1 middle2 twitter_output
+  264  hadoop fs -cat twitter_output
+  265  hadoop fs -cat twitter_output/part-00000
+  266  hadoop fs -ls twitter_output
+  267  hadoop fs -cat twitter_output/part-r-00000
+  268  hadoop fs -cat /data/graphTriangleCount/gplus_combined.unique.txt
+  269  hadoop jar trianglecount.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt gmiddle1 gmiddle2 gplus_output
+  270  ls
+  271  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  272  cd TriangleCount/
+  273  ls
+  274  mv trianglecount-1.0-SNAPSHOT.jar tc_2.jar
+  275  hadoop jar triangle_string_right.jar triangle.TriangleCountDriver /data//data/
+  276  hadoop fs -ls
+  277  hadoop jar triangle_string_right.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt Gm1 Gm2 Goutput
+  278  ls
+  279  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  280  ls
+  281  cd TriangleCount/
+  282  ls
+  283  hadoop jar trianglecount-1.0-SNAPSHOT.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt tmiddle1 tmiddle2 twitter_output2
+  284  hadoop jar trianglecount-1.0-SNAPSHOT.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt gplus_middle1 gplus_middle2 g_output
+  285  hadoop fs -ls 
+  286  hadoop fs -rm -r g_output
+  287  hadoop fs -rm -r gmiddle1
+  288  hadoop fs -rm -r gmiddle2
+  289  hadoop fs -rm -r gplus_middle1
+  290  hadoop fs -rm -r gplus_middle2
+  291  hadoop fs -cat twitter_output2/part-r-00000
+  292  cd ..
+  293  ls
+  294  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  295  cd TriangleCount/
+  296  ls
+  297  hadoop fs -ls 
+  298  hadoop fs -rm -r middle1
+  299  hadoop fs -rm -r middle2
+  300  hadoop fs -ls 
+  301  hadoop fs -cat /data/graphTriangleCount/twitter_graph_v2.txt
+  302  hadoop jar trianglecount-1.0-SNAPSHOT.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt gplus_middle1 gplus_middle2 gplus_output
+  303  hadoop fs -ls 
+  304  hadoop fs -rm -r gplus_*
+  305  cd ..
+  306  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  307  cd TriangleCount/
+  308  hadoop jar trianglecount-1.0-SNAPSHOT.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt gplus_middle1 gplus_middle2 gplus_output
+  309  hadoop fs -rm -r gplus_*
+  310  hadoop fs -ls 
+  311  hadoop jar trianglecount-1.0-SNAPSHOT.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt gplus_middle1 gplus_middle2 gplus_output
+  312  hadoop fs -ls 
+  313  hadoop jar trianglecount-1.0-SNAPSHOT.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt gstr_middle1 gstr_middle2 gstr_output
+  314  hadoop jar trianglecountstring.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt tstr_middle1 tstr_middle2 tstr_output
+  315  ls
+  316  hadoop jar trianglecount_string.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt tstr_middle1 tstr_middle2 tstr_output
+  317  hadoop fs -cat tstr_output/part-r-00000
+  318  hadoop fs -ls 
+  319  ls
+  320  hadoop fs rm -r twi*
+  321  hadoop fs -rm -r twi*
+  322  hadoop fs -ls 
+  323  hadoop jar trianglecount_biginteger.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt tbig_middle1 tbig_middle2 tbig_output
+  324  hadoop fs -ls 
+  325  hadoop fs -rm -r tbig*
+  326  hadoop fs -ls 
+  327  cd ..
+  328  ls
+  329  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  330  ls
+  331  cd TriangleCount/
+  332  ls
+  333  mv trianglecount-1.0-SNAPSHOT.jar triangle_string_right.jar
+  334  hadoop jar trianglecount_string_right.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt t_middle1 t_middle2 t_output
+  335  ls
+  336  hadoop jar triangle_string_right.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt t_middle1 t_middle2 t_output
+  337  hadoop fs -ls
+  338  hadoop fs -cat t_output/part-r-00000
+  339  hadoop jar tc.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tc2_middle tc2_output
+  340  hadoop jar tc_2.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tc2_middle tc2_output
+  341  ls
+  342  cd TriangleCount/
+  343  ls
+  344  mv trianglecount-1.0-SNAPSHOT.jar trianglecount_string.jar
+  345  rm trianglecount.jar 
+  346  ls
+  347  cd ..
+  348  ls
+  349  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  350  ls
+  351  cd TriangleCount/
+  352  ls
+  353  mv trianglecount-1.0-SNAPSHOT.jar trianglecount_biginteger.jar
+  354  hadoop job -kill application_1469066011991_2364
+  355  hadoop job -list
+  356  for i in `hadoop job -list | grep -w  username| awk '{print $1}' | grep job_`; do hadoop job -kill $i; done
+  357  hadoop job -list
+  358  hadoop job -kill job_1469066011991_2364
+  359  hadoop job -kill job_1469066011991_2368
+  360  hadoop fs -ls
+  361  hadoop fs -rm -r g*
+  362  hadoop fs -ls
+  363  hadoop fs -rm -r tm*
+  364  hadoop fs -ls
+  365  hadoop jar trianglecount_string.jar triangle.TriangleCountDriver /data/graphTriangleCount/gplus_combined.unique.txt gstrmiddle1 gstrmiddle2 gstr_output
+  366  ls
+  367  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  368  cd TriangleCount/
+  369  ls
+  370  rm trianglecount-1.0-SNAPSHOT.jar 
+  371  ls
+  372  mv ../trianglecount-1.0-SNAPSHOT.jar ./
+  373  ls
+  374  rm trianglecount_string.jar 
+  375  rm tc_2.jar 
+  376  ls
+  377  mv trianglecount-1.0-SNAPSHOT.jar tc2.jar
+  378  hadoop fs -ls
+  379  hadoop fs -rm -r TC2*
+  380  hadoop fs -get /data/graphTriangleCount/twitter_graph_v2.txt ./
+  381  hadoop fs -get /data/graphTriangleCount/twitter_graph_v2.txt .
+  382  ls
+  383  vim twitter_graph_v2.txt 
+  384  hadoop fs -get /data/graphTriangleCount/gplus_combined.unique.txt
+  385  ls
+  386  hadoop jar final.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt final_m final_out
+  387  ls
+  388  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  389  cd TriangleCount/
+  390  ls
+  391  mv trianglecount-1.0-SNAPSHOT.jar tc_2step.jar
+  392  hadoop fs -ls
+  393  hadoop fs -rm -r tc2_*
+  394  hadoop fs -ls
+  395  hadoop jar tc_2step.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt TC2STEP_MIDDLE TC2STEP_OUT
+  396  hadoop job -kill job_1469066011991_2388
+  397  hadoop jar tc2.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt TC2STEP_MIDDLE TC2STEP_OUT
+  398  hadoop fs -ls
+  399  hadoop fs -cat TC2STEP_OUT/part-r-00000
+  400  hadoop fs -rm -r TC2*
+  401  ls
+  402  hadoop fs -ls
+  403  free -m
+  404  hadoop fs -cat t_output/part-r-00000
+  405  hadoop fs -cat tstr_output/part-r-00000
+  406  hadoop fs -ls
+  407  hadoop fs -rm -r tstr*
+  408  hadoop fs -ls
+  409  cd ..
+  410  ls
+  411  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  412  cd TriangleCount/
+  413  ls
+  414  mv trianglecount-1.0-SNAPSHOT.jar final.jar
+  415  ls
+  416  hadoop jar final.jar triangle.TriangleCountDriver /data/graphTriangle/twitter_graph_v2.txt t_final_m1 t_final_m2 t_final_output
+  417  hadoop jar final.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt t_final_m1 t_final_m2 t_final_output
+  418  hadoop fs -ls
+  419  hadoop fs -cat t_final_output/part-r-00000
+  420  cd ..
+  421  ls
+  422  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  423  ls
+  424  cd TriangleCount/
+  425  ls
+  426  mv trianglecount-1.0-SNAPSHOT.jar final2.jar
+  427  hadoop jar final2.jar iip.Driver /data/graphTriangleCount/twitter_graph_v2.txt output1 output2 output3
+  428  cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+  429  ntpdate pool.ntp.org
+  430  su
+  431  hadoop fs -ls
+  432  hadoop fs -cat tf2_m/*
+  433  ls
+  434  cd TriangleCount/
+  435  ls
+  436  cd ..
+  437  ls
+  438  hadoop fs -put small.txt /
+  439  hadoop fs -put small.txt ./
+  440  hadoop fs -ls
+  441  hadoop jar final2.jar combine.TCDriver small.txt output1 output2 output3
+  442  cd TriangleCount/
+  443  hadoop jar final2.jar combine.TCDriver small.txt output1 output2 output3
+  444  hadoop jar final2.jar combine.TCDriver small.txt output1 output2
+  445  hadoop fs -ls
+  446  hadoop fs -cat tf2_out/part-r-00000
+  447  hadoop fs -cat output2/part-r-00000
+  448  free -m
+  449  hadoop fs -ls
+  450  hadoop fs -cat tf2_m/part-r-00000
+  451  hadoop fs -rm -r tf2*
+  452  hadoop jar final2.jar combine.TCDriver small.txt output1 output2
+  453  hadoop job -list
+  454  ls
+  455  hadoop job -list
+  456  hadoop fs -ls
+  457  hadoop fs -cat Goutput/part-r-00000
+  458  hadoop fs -cat gstr_output/part-r-00000
+  459  cd TriangleCount/
+  460  ls
+  461  hadoop fs -cat t_final_output/part-r-00000
+  462  hadoop jar final2.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tf2_m tf2_out
+  463  hadoop job -list
+  464  hadoop job -kill job_1469066011991_2413
+  465  cd ..
+  466  vim .bashrc
+  467  vim /etc/profile
+  468  vim /etc/hosts
+  469  hadoop fs -ls
+  470  hadoop -rm -r Gm*
+  471  hadoop fs -rm -r Gm*
+  472  hadoop fs -rm -r output*
+  473  hadoop fs -rm -r gstrm*
+  474  hadoop fs -rm -r task*
+  475  hadoop fs -ls
+  476  hadoop fs -rm -r t_mi*
+  477  hadoop fs -rm -r t_final_m*
+  478  hadoop fs -ls
+  479  hadoop fs -rm -r tf2_m
+  480  hadoop fs -rm -r final_m
+  481  hadoop fs -ls
+  482  hadoop jar final2.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tf2_m tf2_out
+  483  cd TriangleCount/
+  484  hadoop jar final2.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tf2_m tf2_out
+  485  cd ..
+  486  ls
+  487  vim small.txt
+  488  hadoop fs -ls
+  489  hadoop fs -rm small.txt
+  490  hadoop fs -put small.txt ./
+  491  hadoop fs -ls
+  492  hadoop fs -rm -r output*
+  493  ls
+  494  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  495  cd TriangleCount/
+  496  ls
+  497  mv trianglecount-1.0-SNAPSHOT.jar tc18.jar
+  498  hadoop jar tc18.jar combine.TCDriver small.txt tc18_m tc18_o
+  499  hadoop fs -ls
+  500  hadoop fs -rm -r tc1*
+  501  hadoop fs -rm -r tc18*
+  502  hadoop fs -rm -r tc18_m
+  503  hadoop fs -rm -r tc18_o
+  504  hadoop fs -ls
+  505  cd ..
+  506  ls
+  507  hadoop fs -put part-r-00000 ./
+  508  hadoop jar tc18.jar combine.JustCount part-r-00000 tc18_m tc18_o
+  509  cd TriangleCount/
+  510  hadoop jar tc18.jar combine.JustCount part-r-00000 tc18_o
+  511  hadoop fs -ls
+  512  hadoop fs -cat tc18_o/part-r-00000
+  513  hadoop jar tc18.jar triangle.GraphUndirecter small tri_m1
+  514  hadoop jar tc18.jar triangle.GraphUndirecter small.txt tri_m1
+  515  ls
+  516  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  517  ls
+  518  cd TriangleCount/
+  519  ls
+  520  mv trianglecount-1.0-SNAPSHOT.jar tc_1818.jar
+  521  hadoop jar tc_1818.jar combine.GraphUndirecterAndTiling small.txt tc1818_m
+  522  echo $HADOOP_HEAPSIZE
+  523  vim /etc/profile
+  524  vim ../.bashrc
+  525  hadoop fs -ls
+  526  hadoop fs -rm -r tc1818_m
+  527  export HADOOP_OPTS="-Xmx4096m"
+  528  hadoop jar tc_1818.jar combine.GraphUndirecterAndTiling small.txt tc1818_m
+  529  cd ..
+  530  ls
+  531  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  532  ls
+  533  cd TriangleCount/
+  534  ls
+  535  mv trianglecount-1.0-SNAPSHOT.jar tc_1820.jar
+  536  hadoop fs -ls
+  537  hadoop jar tc_1820.jar combine.GraphUndirecterAndTiling small.txt tc1820_m
+  538  hadoop jar tc_1820.jar combine.JustCount tc1820_m tc1820_o
+  539  hadoop fs -ls
+  540  hadoop jar tc_1820.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt combine_m combine_o
+  541  hadoop fs -ls
+  542  hadoop fs -cat combine_o/part-r-00000
+  543  hadoop jar tc_1820.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt triangle_m1 triangle_m2 triangle_o
+  544  hadoop fs -ls
+  545  hadoop fs rm -r tc18_o
+  546  hadoop fs -rm -r tc18_o
+  547  hadoop fs -rm -r tri_m1
+  548  hadoop fs -rm -r tc1820*
+  549  hadoop fs -ls
+  550  hadoop fs -cat Goutput/part-r-00000
+  551  hadoop fs -rm -r Goutput
+  552  hadoop fs -rm -r t_output
+  553  hadoop fs -rm -r final_out
+  554  hadoop fs -ls
+  555  hadoop fs -rm -r tc1818_m
+  556  hadoop fs -rm -r output1
+  557  hadoop fs -ls
+  558  cd ..
+  559  ls
+  560  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  561  cd TriangleCount/
+  562  ls
+  563  rm tc18.jar
+  564  rm tc_2step.jar
+  565  rm triangle_string_right.jar
+  566  rm tc1818.jar
+  567  rm tc_1818.jar
+  568  rm final*
+  569  ls
+  570  rm tc2.jar
+  571  mv trianglecount-1.0-SNAPSHOT.jar tc_1821.jar
+  572  hadoop jar tc_1821.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt tc_m1 tc_m2 tc_o
+  573  cd ..
+  574  ls
+  575  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  576  cd TriangleCount/
+  577  ls
+  578  mv trianglecount-1.0-SNAPSHOT.jar tc_1822.jar
+  579  hadoop fs -ls
+  580  hadoop fs -rm -r tc_*
+  581  hadoop fs -rm -r tc_m*
+  582  hadoop fs -rm -r tc_o
+  583  hadoop jar tc_1822.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt tc_m1 tc_m2 tc_o
+  584  cd ..
+  585  ls
+  586  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  587  ls
+  588  cd TriangleCount/
+  589  hadoop fs -ls
+  590  hadoop fs -rm -r triang*
+  591  hadoop fs -rm -r triangle*
+  592  hadoop fs -rm -r triangle_m*
+  593  hadoop fs -rm -r triangle_o
+  594  ls
+  595  mv trianglecount-1.0-SNAPSHOT.jar tc_1821.jar
+  596  ls
+  597  hadoop jar tc_1821.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt triangle_m1 triangle_m2 triangle_o
+  598  cd ..
+  599  ls
+  600  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  601  cd TriangleCount/
+  602  ls
+  603  mv trianglecount-1.0-SNAPSHOT.jar tc1821_6.jar
+  604  hadoop jar tc1821_6.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt tric_m1 tric_m2 tric_o
+  605  hadoop fs -ls
+  606  hadoop fs -rm -r triangle_m*
+  607  hadoop fs -rm -r triangle_o
+  608  hadoop fs -rm -r t_final_output
+  609  hadoop fs
+  610  hadoop fs -ls
+  611  hadoop jar tc1821_6.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt cb_m1 cb_m2 cb_o
+  612  hadoop jar tc1821_6.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt cb_m cb_o
+  613  hadoop jar tc1821_6.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt gcb_m gcb_o
+  614  ls
+  615  mv tc_1821.jar tc1821_4.jar
+  616  cd ..
+  617  ls
+  618  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  619  cd TriangleCount/
+  620  ls
+  621  mv trianglecount-1.0-SNAPSHOT.jar tc1910_3.jar
+  622  hadoop fs -ls
+  623  hadoop fs -rm -r combine_*
+  624  hadoop fs -rm -r gstr_output
+  625  hadoop jar tc1910_3.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt 1910t_m 1910t_o
+  626  hadoop fs -rm -r 1910*
+  627  hadoop jar tc1910_3.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt 1910t_m1 1910t_m2 1910t_o
+  628  cd ..
+  629  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  630  cd TriangleCount/
+  631  ls
+  632  mv trianglecount-1.0-SNAPSHOT.jar tc1910_5.jar
+  633  hadoop fs -ls
+  634  hadoop fs -rm -r 1910*
+  635  hadoop fs -ls
+  636  hadoop jar tc1910_5.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt 1910tc_m 1910tc_o
+  637  hadoop fs -ls
+  638  hadoop fs -rm -r 1910*
+  639  hadoop fs -cat cb_o/part-r-00000
+  640  hadoop fs -cat tc_o/part-r-00000
+  641  hadoop fs -cat tric_o/part-r-00000
+  642  ls
+  643  rm tc1821*
+  644  rm tc*
+  645  ls
+  646  rm trianglecount_biginteger.jar 
+  647  ls
+  648  cd ..
+  649  ls
+  650  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  651  cd TriangleCount/
+  652  ls
+  653  mv trianglecount-1.0-SNAPSHOT.jar tc1911.jar
+  654  hadoop fs -ls
+  655  hadoop fs -rm -r gcb*
+  656  hadoop fs -rm -r cb*
+  657  hadoop fs -rm -r tc*
+  658  ls
+  659  hadoop fs -rm -r tc_*
+  660  hadoop fs -rm -r tric*
+  661  hadoop fs -ls
+  662  hadoop jar tc1911.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb_m tcb_o 6
+  663  cd ..
+  664  ls
+  665  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  666  ls
+  667  cd TriangleCount/
+  668  ls
+  669  mv trianglecount-1.0-SNAPSHOT.jar tc1911.jar
+  670  ls
+  671  hadoop jar tc1911.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb_m tcb_o 6
+  672  hadoop jar tc1911.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt t6_m1 t6_m2 t6_o 6
+  673  hadoop jar tc1911.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb4_m tcb4_o 4
+  674  hadoop fs -ls
+  675  hadoop fs -cat tcb4_o/part-r-00000
+  676  hadoop fs -cat tcb_o/part-r-00000
+  677  hadoop fs -cat t6_o/part-r-00000
+  678  hadoop fs -rm -r tcb4*
+  679  hadoop fs -rm -r t6_m*
+  680  hadoop fs -rm -r t6_o
+  681  hadoop fs -ls
+  682  hadoop jar tc1911.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt gcb_m gcb_o 6
+  683  hadoop fs -ls
+  684  hadoop fs -cat gcb_o/part-r-00000
+  685  hadoop jar tc1911.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb4_m tcb4_o 4
+  686  hadoop fs -ls
+  687  hadoop fs -rm -r tcb4*
+  688  hadoop fs -rm part-r-00000
+  689  hadoop fs -rm small.txt
+  690  hadoop jar tc1911.jar triangle.TriangleCountDriver /data/graphTriangleCount/twitter_graph_v2.txt t5_m1 t5_m2 t5_o 5
+  691  ls
+  692  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  693  cd TriangleCount/
+  694  ls
+  695  mv trianglecount-1.0-SNAPSHOT.jar tc2021.jar
+  696  hadoop fs -ls
+  697  hadoop fs -rm -r t5_*
+  698  hadoop jar tc2021.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t6_m t6_o 6
+  699  hadoop jar tc2021.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt g6_m g6_o 6
+  700  hadoop job -kill job_1469066011991_2623
+  701  hadoop job -lisat
+  702  hadoop job -list
+  703  cd ..
+  704  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  705  cd TriangleCount/
+  706  ls
+  707  mv trianglecount-1.0-SNAPSHOT.jar tc2021.jar
+  708  hadoop fs -ls
+  709  hadoop fs -rm -r g6_m
+  710  hadoop fs -rm -r t6_
+  711  hadoop fs -rm -r t6_*
+  712  hadoop jar tc2021.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t6_m t6_o 6
+  713  hadoop fs -cat t6_o/part-r-00000
+  714  ls
+  715  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  716  cd TriangleCount/
+  717  ls
+  718  mv trianglecount-1.0-SNAPSHOT.jar test.jar
+  719  hadoop jar test.jar iip.Driver /data/graphTriangleCount/twitter_graph_v2.txt output1 output2 output3
+  720  ls
+  721  cd word2vec/
+  722  ls
+  723  vim Trainword2vec.sh 
+  724  sh Trainword2vec.sh 
+  725  ls
+  726  cd ..
+  727  ls
+  728  cd TriangleCount/
+  729  ls
+  730  cd ..
+  731  ls
+  732  cd word2vec/
+  733  ls
+  734  mv trianglecount-1.0-SNAPSHOT.jar ../TriangleCount/
+  735  cd ../TriangleCount/
+  736  ls
+  737  mv trianglecount-1.0-SNAPSHOT.jar test.jar
+  738  hadoop fs -ls
+  739  hadoop fs -rm -r output*
+  740  hadoop fs -rm -r t6_*
+  741  hadoop jar test.jar yjj.CountDriver /data/graphTriangleCount/twitter_graph_v2.txt yjj_m yjj_o
+  742  ls
+  743  hadoop jar test.jar yjj.CountDriver /data/graphTriangleCount/twitter_graph_v2.txt yjj_m yjj_o
+  744  cd ..
+  745  ls
+  746  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  747  cd TriangleCount/
+  748  ls
+  749  rm test.jar 
+  750  mv trianglecount-1.0-SNAPSHOT.jar test.jar
+  751  ls
+  752  hadoop jar test.jar yjj.CountDriver /data/graphTriangleCount/twitter_graph_v2.txt yjj_m yjj_o
+  753  cd ..
+  754  ls
+  755  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  756  ls
+  757  cd TriangleCount/
+  758  ls
+  759  mv trianglecount-1.0-SNAPSHOT.jar test.jar
+  760  ls
+  761  hadoop jar test.jar yjj.CountDriver /data/graphTriangleCount/twitter_graph_v2.txt yjj_m yjj_o
+  762  cd ..
+  763  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  764  cd TriangleCount/
+  765  ls
+  766  mv trianglecount-1.0-SNAPSHOT.jar test.jar
+  767  hadoop jar test.jar yjj.CountDriver /data/graphTriangleCount/twitter_graph_v2.txt yjj_m yjj_o
+  768  ls
+  769  ll word2vec/
+  770  du -h word2vec/
+  771  du -h wuxianovels
+  772  du -h TriangleCount/
+  773  du -h Assignment2/
+  774  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  775  cd TriangleCount/
+  776  ls
+  777  mv trianglecount-1.0-SNAPSHOT.jar test.jar
+  778  ls
+  779  hadoop jar test.jar zhang.GraphTriangleCount /data/graphTriangleCount/twitter_graph_v2.txt z1 z2 zo
+  780  hadoop fs -ls
+  781  hadoop fs -cat zo/part-r-00000
+  782  hadoop fs -cat yjj_o/part-r-00000
+  783  hadoop jar test.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m t32_o 32
+  784  cd ..
+  785  ls
+  786  mv trianglecount-1.0-SNAPSHOT.jar 
+  787  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  788  cd TriangleCount/
+  789  ls
+  790  hadoop fs -rm -r t32*
+  791  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m t32_o 32
+  792  hadoop fs -ls
+  793  hadoop fs -cat t32_o/part-r-00000
+  794  cd ..
+  795  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  796  cd TriangleCount/
+  797  hadoop fs -rm -r t32*
+  798  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m t32_o 32
+  799  hadoop fs -cat t32_o/part-r-00000
+  800  hadoop fs -cat t32_m/part-r-00000
+  801  hadoop fs -ls
+  802  hadoop fs -rm -r t32*
+  803  cd ..
+  804  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  805  cd TriangleCount/
+  806  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m1 t32_m2 t32_o 32
+  807  hadoop fs -cat t32_o/part-r-00000
+  808  hadoop fs -rm -r t32*
+  809  cd ..
+  810  mv trianglecount-1.0-SNAPSHOT.jar TriangleCount/
+  811  cd TriangleCount/
+  812  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m1 t32_m2 t32_o 32
+  813  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t64_m1 t64_m2 t64_o 64
+  814  hadoop fs -rm -r t32*
+  815  hadoop fs -rm -r t64*
+  816  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t50_m1 t50_m2 t50_o 50
+  817  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt t32_m1 t32_m2 t32_o 32
+  818  hadoop fs -ls
+  819  hadoop fs -rm -r t50*
+  820  hadoop fs -rm -r yjj*
+  821  hadoop fs -rm -r z*
+  822  hadoop fs -rm -r t32_o
+  823  hadoop fs -ls
+  824  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.CollectSum t32_m2 t32_o
+  825  hadoop fs -cat t32_m2/part-r-00000
+  826  ls
+  827  hadoop -ls /
+  828  hadoop dfs -ls /
+  829  hadoop dfs -ls /data
+  830  hadoop dfs -ls /data/task3
+  831  hadoop dfs -ls /data
+  832  hadoop dfs -ls /data/graph*
+  833  hadoop dfs -ls /data/graph*/t*
+  834  hadoop dfs -get /data/graph*/t*
+  835  ls
+  836  scp twitter_graph_v2.txt  jun@172.28.55.81:/home/jun/Desktop
+  837  cd TriangleCount/
+  838  ls
+  839  hadoop fs -ls
+  840  hadoop fs -rm -r t32*
+  841  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m1 t32_m2 t32_o 32
+  842  hadoop fs -ls
+  843  hadoop fs -rm -r t32*
+  844  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m1 t32_m2 t32_o 32
+  845  hadoop fs -cat t32_o/part-r-00000
+  846  hadoop fs -cat t32_m2/part-r-00000
+  847  ls
+  848  rm test.jar
+  849  hadoop fs -rm -r t32*
+  850  hadoop fs -rm -r tcb*
+  851  hadoop fs -ls
+  852  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt t32_m1 t32_m2 t32_o 32
+  853  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt g40_m1 g40_m2 g40_o 40
+  854  hadoop fs -lr
+  855  hadoop fs -ls
+  856  hadoop fs -rm -r g40_o
+  857  hadoop fs -cat g40_m2/part-r-00000
+  858  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.CollectSum g40_m2 g40_o
+  859  hadoop fs -rm -r g40*
+  860  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt g40_m1 g40_m2 g40_o 40
+  861  hadoop fs -cat g40_o/part-r-00000
+  862  hadoop fs -ls
+  863  ls
+  864  mv trianglecount-1.0-SNAPSHOT.jar trianglecount.jar
+  865  hadoop jar trianglecount.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt gcb_m1 gcb_m2 gcb_o 36
+  866  cd TriangleCount/
+  867  hadoop fs -ls
+  868  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb_m1 tcb_m2 tcb_o 32
+  869  hadoop fs -rm -r tcb_*
+  870  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb_m1 tcb_m2 tcb_o 32
+  871  hadoop fs -cat g40_o/part-r-00000
+  872  hadoop fs -ls
+  873  hadoop fs -rm -r t32*
+  874  hadoop fs -rm -r gcb*
+  875  hadoop fs -ls
+  876  ls
+  877  cd TriangleCount/
+  878  ls
+  879  hadoop jar trianglecount.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt gg_m1 gg_m2 gg_o 48
+  880  hadoop fs -ls
+  881  hadoop fs -rm -r gg_*
+  882  hadoop fs -rm -r g40*
+  883  hadoop fs -lr
+  884  hadoop fs -ls
+  885  hadoop jar trianglecount.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt g32_m1 g32_m2 g32_o 32
+  886  hadoop job -list
+  887  hadoop job -kill job_1469066011991_3022
+  888  hadoop job -kill job_1469066011991_3020
+  889  hadoop job -list
+  890  ls
+  891  cd TriangleCount/
+  892  ls
+  893  hadoop jar trianglecount.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt hh_m1 hh_m2 hh_o 34
+  894  hadoop jar trianglecount.jar combine.TCDriver /data/graphTriangleCount/gplus_combined.unique.txt tt_m1 tt_m2 tt_o 34
+  895  cd ..
+  896  ls
+  897  cd word2vec/
+  898  ls
+  899  vim Trainword2vec.sh 
+  900  sh Trainword2vec.sh 
+  901  hadoop fs -l
+  902  hadoop fs -ls
+  903  hadoop fs -cat tt_o/part-r-00000
+  904  hadoop fs -rm -r g32*
+  905  hadoop fs -rm -r hh*
+  906  hadoop fs -ls
+  907  hadoop fs -rm -r tcb*
+  908  cd TriangleCount/
+  909  hadoop jar trianglecount.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb_m1 tcb_m2 tcb_o
+  910  hadoop jar trianglecount.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt tcb_m1 tcb_m2 tcb_o 34
+  911  hadoop fs -ls
+  912  ls
+  913  python 
+  914  mkdir comment
+  915  cd comment/
+  916  python do.py
+  917  cd TriangleCount/
+  918  ls
+  919  hadoop jar trianglecount-1.0-SNAPSHOT.jar combine.TCDriver /data/graphTriangleCount/twitter_graph_v2.txt wuliao_m1 wuliao_m2 wuliao_o 30
+  920  hadoop fs -ls
+  921  hadoop fs -rm -r wul*
+  922  ls
+  923  cd word2vec/
+  924  ls
+  925  vim Trainword2vec.sh 
+  926  ls
+  927  python
+  928  uname -r
+  929  free -m
+  930  ls
+  931  cd word2vec/
+  932  ls
+  933  ./distance 
+  934  vim Trainword2vec.sh 
+  935  ./distance vectors.bin 
+  936  ls
+  937  cd word2vec/
+  938  ls
+  939  cd Trainword2vec.sh
+  940  vim Train
+  941  vim Trainword2vec.sh
+  942  ls
+  943  cd word2vec/
+  944  ls
+  945  mv Train_segmented.txt word2vec/
+  946  cd word2vec/
+  947  ls
+  948  ll
+  949  vim Train_segmented.txt
+  950  vim Trainword2vec.sh 
+  951  sh Trainword2vec.sh 
+  952  ls
+  953  cd word2vec/
+  954  ls
+  955  vim Trainword2vec.sh 
+  956  sh Trainword2vec.sh 
+  957  ls
+  958  cd word2vec/
+  959  ls
+  960  vim Trainword2vec.sh 
+  961  sh Trainword2vec.sh 
+  962  ls
+  963  free -
+  964  cd word2vec/
+  965  ls
+  966  cp Trainword2vec.sh train.sh
+  967  ls
+  968  vim train.sh 
+  969  sh train.sh 
+  970  ls
+  971  cd word2vec/
+  972  ls
+  973  vim Trainword2vec.sh 
+  974  sh Trainword2vec.sh 
+  975  ls
+  976  cd word2vec/
+  977  ls
+  978  vim train.sh 
+  979  sh train.sh
+  980  ls
+  981  vim word2vec/
+  982  cd word2vec/
+  983  ls
+  984  vim train.sh 
+  985  sh train.sh 
+  986  ls
+  987  cd word2vec/
+  988  ls
+  989  mv Train_segmented.txt train_seg1.txt
+  990  cd ..
+  991  mv Train_segmented.txt word2vec/
+  992  cd word2vec/
+  993  ls
+  994  vim Trainword2vec.sh
+  995  sh Trainword2vec.sh
+  996  cd word2vec/ls
+  997  cd word2vec/
+  998  ls
+  999  vim train.sh 
+ 1000  clear
+ 1001  ls
+ 1002  cd word2vec/
+ 1003  ls
+ 1004  history >history.txt
