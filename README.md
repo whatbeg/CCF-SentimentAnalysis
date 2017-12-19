@@ -1,2 +1,2 @@
 # CCF-SentimentAnalysis
-2016 CCF BDCI Views-based field Sentiment Analysis
+2016 CCF BDCI Views-based Sentiment Analysis in Specific Area
